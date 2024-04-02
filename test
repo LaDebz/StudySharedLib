@@ -5,7 +5,7 @@ pipeline{
     DEPLOY_ENV = 'staging'
     GIT_REPO_URL = 'https://github.com/LaDebz/maven-web-app.git'
   }
-  tools {
+  toools {
     maven 'maven3.9.4'
   }
   stages {
